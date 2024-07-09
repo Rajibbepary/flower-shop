@@ -194,7 +194,7 @@ background: rgba(167, 33, 98, 0.15);
 .hotdel-section{
     max-width:100% ;
     height:520px;
-    margin-bottom:400px ;
+    margin-bottom:100px ;
     background-color:#E554730D;
     display: flex;
     justify-content: space-between;
@@ -268,3 +268,99 @@ background: rgba(167, 33, 98, 0.15);
     opacity: 1;
     right: 0;
   }
+
+  /* instagram section style */
+  
+  .Instagram-head{
+    text-align: center;
+    margin: auto;
+  }
+  .Instagram-head h1{
+    font-size:40px ;
+    font-weight: 800;
+    letter-spacing: 0;
+    color: #272727;
+  }
+  .Instagram-head p{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-top: 15px;
+    color: #272727;
+    padding: 5px;
+    line-height:30px ;
+  }
+
+  /* Instagram-img-section-style */
+.Instagram-img{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    margin-left: 25px;
+    margin-right:40px ;
+}
+
+
+  .Instagram-img img{
+    height:250px ;
+    width: 240px;
+    margin-left:55px ;
+    margin-top: 35px;
+    border-radius:5px ;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  /* Latest-Deals-section-style */
+
+  .Latest-Deals-section{
+    width: 1135px;
+    height:350px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:80px ;
+    margin-right:15px ;
+    background-image: url('/img/Rectangle\ 9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top:100px ;
+  }
+
+
+  .Latest-Deals-section h1{
+    font-weight: 700;
+    font-size:35px ;
+    color: #272727;
+    letter-spacing:0 ;
+    text-align: center;
+  }
+.Latest-Deals-section p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:15px ;
+    text-align: center;
+}
+
+.Latest-Deals-section input{
+    width: 430px;
+    height:45px ;
+    margin-top:20px ;
+    color: #FFFFFF;
+    border: none;
+    border-radius:6px ;
+    padding:15px ;
+} 
+.Latest-Deals-section button{
+    width:130px ;
+    height:45px ;
+    margin-top:20px ;
+    color: #FFFFFF;
+    border: none;
+    border-radius:6px ;
+    background-color:#E55473 ;
+    font-size:20px ;
+    font-weight: 700;
+    padding:10px ;
+    margin-left:15px ;
+} 
